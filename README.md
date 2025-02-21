@@ -8,9 +8,9 @@ Sujet
 
 Vous devez développer une petite application permettant la gestion de tâches. Chaque tâche possède :
 
- - Un titre
+ - Un titre: obligatoire
  - Une description
- - Un statut ("À faire", "En cours", "Terminée")
+ - Un statut ("À faire", "En cours", "Terminée"): obligatoire
  - Une date de création
 
 Les fonctionnalités demandées :
@@ -22,10 +22,11 @@ Les fonctionnalités demandées :
 
 Contraintes
 
- - Aucun design spécifique n'est imposé. Le rendu CSS n'a pas d'importance.
  - Vous pouvez utiliser SQLite comme base de données (ou MySQL si vous préférez).
  - Utilisation de Doctrine pour gérer les entités et les requêtes.
  - Pas de gestion d'authentification nécessaire.
+ - Tenir compte du repect des conventions Symfony.
+ - Proposer un test unitaire.
 
 Instructions
 
@@ -36,5 +37,6 @@ Instructions
 Livrable attendu
 
  - Un projet Symfony fonctionnel contenant la feature demandée.
+ - Fournir une branche git avant l'échange.
 
 Bon courage et bon code ! 🚀
